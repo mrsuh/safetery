@@ -11,30 +11,20 @@
         }
 
         .hero {
-            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            background: linear-gradient(135deg, #0d6efd, #4ED7F1);
             color: white;
             padding: 100px 0;
         }
-
-        .feature-icon {
-            font-size: 48px;
-            color: #0d6efd;
-        }
-
-        .section-alt {
-            background-color: #f8f9fa;
-        }
-
-        .audience-card {
-            border: none;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-        }
-
+        
         .cta-section {
-            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            background: linear-gradient(135deg, #0d6efd, #4ED7F1);
             color: white;
             padding: 60px 0;
+        }
+        
+        .image-icon {
+            width: 140px;
+            height: 140px;
         }
     </style>
 </head>
@@ -54,35 +44,46 @@
 <section class="container text-center my-5">
     <h2 class="mb-4">Why Safetery?</h2>
     <div class="row">
-        <div class="col-md-4 mb-4">
-            <img src="./images/artificial-intelligence.png" alt="AI Icon">
-            <h5 class="mt-3">Deep Learning Defense</h5>
-            <p>Smart detection that evolves and stops advanced threats in real time.</p>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-ai.png" alt="AI Icon" class="image-icon">
+            <h5 class="mt-3">Deep Learning-Based Threat Detection</h5>
+            <p>Identifies complex attacks by analyzing user behavior and traffic patterns using advanced machine learning models for higher accuracy and fewer false positives.</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <img src="./images/rocket--v1.png" alt="Setup Icon">
-            <h5 class="mt-3">Fast Setup</h5>
-            <p>Be protected in minutes with simple deployment and no hidden fees.</p>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-api.png" alt="Setup Icon" class="image-icon">
+            <h5 class="mt-3">API Protection</h5>
+            <p>Safeguards both common and rare API protocols against abuse, injection, and credential stuffing attacks—ideal for SaaS platforms and modern applications.</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <img src="./images/api.png" alt="API Icon">
-            <h5 class="mt-3">Protocol Coverage</h5>
-            <p>Supports a wide range of rare and common API protocols to protect modern stacks.</p>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-bot.png" alt="API Icon" class="image-icon">
+            <h5 class="mt-3">Bot and DDoS Protection</h5>
+            <p>Blocks malicious bots, fake traffic, and large-scale denial-of-service attacks to ensure availability and performance of web services.</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <img src="./images/shield.png" alt="Regulations Icon">
-            <h5 class="mt-3">Regulation Support</h5>
-            <p>Built-in support for niche and mainstream security/privacy regulations.</p>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-standard.png" alt="Regulations Icon" class="image-icon">
+            <h5 class="mt-3">Support for Compliance Standards</h5>
+            <p>Built-in support for regulations like HIPAA, PCI DSS, GDPR, SOX, and FISMA helps clients in regulated industries meet strict security requirements.</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <img src="./images/settings.png" alt="Deployment Icon">
-            <h5 class="mt-3">Easy Deployment</h5>
-            <p>Quick setup and smooth maintenance with clear documentation and support.</p>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-deployment.png" alt="Deployment Icon" class="image-icon">
+            <h5 class="mt-3">Flexible Deployment Options</h5>
+            <p>Available as both on-premise and cloud-based solutions to meet the needs of organizations of different sizes and technical environments.</p>
         </div>
-        <div class="col-md-4 mb-4">
-            <img src="./images/money.png" alt="Pricing Icon">
-            <h5 class="mt-3">Transparent Pricing</h5>
-            <p>No hidden fees or upselling. Budget-friendly plans that scale with you.</p>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-maintenance.png" alt="Pricing Icon" class="image-icon">
+            <h5 class="mt-3">Easy Setup and Maintenance</h5>
+            <p>Lightweight and intuitive configuration reduces deployment time and simplifies system management for IT teams.</p>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-pricing.png" alt="Regulations Icon" class="image-icon">
+            <h5 class="mt-3">Transparent Pricing Model</h5>
+            <p>Clear and predictable pricing without hidden fees or upselling builds trust and simplifies budgeting for small and mid-sized businesses.</p>
+        </div>
+        <div class="col-md-3 mb-3">
+            <img src="./images/01-monitor.png" alt="Deployment Icon" class="image-icon">
+            <h5 class="mt-3">Real-Time Monitoring and Analytics</h5>
+            <p>Provides live dashboards, threat intelligence, and logging for full visibility into security events and traffic trends.</p>
         </div>
     </div>
 </section>
@@ -92,12 +93,12 @@
     <h2 class="text-center mb-4">Flexible Deployment</h2>
     <div class="row">
         <div class="col-md-6 mb-4">
-            <img src="https://img.icons8.com/clouds/96/cloud.png" alt="Cloud WAF" class="waf-type-image">
+            <img src="./images/02-cloud.png" alt="Cloud WAF" class="image-icon">
             <h4>Cloud-Based WAF</h4>
             <p>Get instant protection without installing any hardware. Ideal for dynamic scaling, fast deployment, and zero maintenance overhead. Perfect for SaaS, startups, and modern infrastructures.</p>
         </div>
         <div class="col-md-6 mb-4">
-            <img src="https://img.icons8.com/clouds/96/server.png" alt="On-Premise WAF" class="waf-type-image">
+            <img src="./images/02-server.png" alt="On-Premise WAF" class="image-icon">
             <h4>On-Premise WAF</h4>
             <p>For complete control and compliance, install Safetery on your own servers. Best suited for enterprises with strict regulatory demands and sensitive data, like finance and healthcare.</p>
         </div>
@@ -109,33 +110,32 @@
     <h2 class="text-center mb-4">Built for Every Industry</h2>
     <div class="row">
         <div class="col-md-4 mb-4">
-            <img src="https://img.icons8.com/office/96/heart-with-pulse.png" class="mx-auto" alt="Healthcare">
+            <img src="./images/03-health.png" class="mx-auto image-icon" alt="Healthcare">
             <h5 class="mt-2">Healthcare</h5>
             <p>Protect PHI and meet HIPAA standards with real-time threat blocking.</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="./images/bank-cards.png" class="mx-auto" alt="Finance">
+            <img src="./images/03-finance.png" class="mx-auto image-icon" alt="Finance">
             <h5 class="mt-2">Finance</h5>
             <p>Stop fraud, defend APIs, and comply with global regulations.</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="./images/shopping-cart.png" class="mx-auto" alt="E-Commerce">
+            <img src="./images/03-commerce.png" class="mx-auto image-icon" alt="E-Commerce">
             <h5 class="mt-2">E-Commerce</h5>
             <p>Keep checkouts safe, stop bots, and reduce downtime during peak traffic.</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="./images/goverment.png"
-                 class="mx-auto" alt="Government">
+            <img src="./images/03-government.png" class="mx-auto image-icon" alt="Government">
             <h5 class="mt-2">Government</h5>
             <p>Protect critical services, prevent DDoS, and comply with national security standards.</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="./images/cloud.png" class="mx-auto" alt="SaaS">
+            <img src="./images/03-saas.png" class="mx-auto image-icon" alt="SaaS">
             <h5 class="mt-2">SaaS Providers</h5>
             <p>Secure APIs and user data, stop scraping and trial abuse.</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="./images/news.png" class="mx-auto" alt="Media">
+            <img src="./images/03-media.png" class="mx-auto image-icon" alt="Media">
             <h5 class="mt-2">Media & News</h5>
             <p>Stay online during viral traffic, block fake users, and prevent site defacement.</p>
         </div>
